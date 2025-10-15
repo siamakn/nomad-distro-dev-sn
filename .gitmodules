@@ -1,3 +1,7 @@
 [submodule "packages/nomad-FAIR"]
 	path = packages/nomad-FAIR
 	url = https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR.git
+[submodule "packages/nomad-compass"]
+	path = packages/nomad-compass
+	url = https://github.com/siamakn/llm25-nomad-compass.git
+	branch = main
