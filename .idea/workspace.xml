@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6230cf3a-0ae5-4cd5-90a2-3c7ffac6e6ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/nomad-compass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nomad-distro-dev-sn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/nomad-compass/scripts/sn_prebuild_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/sn_bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-FAIR" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-FAIR" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/nomad-FAIR/gui/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-FAIR/gui/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/myapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/myapi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/sn_chatbot_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/sn_chatbot_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/sn_status_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/apis/sn_status_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/services/sn_chatbot_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/services/sn_chatbot_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/services/sn_index_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/services/sn_index_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/services/sn_vector_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/services/sn_vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/sn_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/nomad-compass/src/nomad_compass/sn_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +31,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JSX File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/nomad-compass" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -40,9 +54,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "24331130",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/siamak/workspace/github_repos/nomad-distro-dev-forked/nomad-distro-dev-sn",
+    "last_opened_file_path": "/home/siamak/workspace/github_repos/rdmo-sn",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,7 +92,8 @@
       <workItem from="1760354384561" duration="12467000" />
       <workItem from="1760443262173" duration="7528000" />
       <workItem from="1760517967586" duration="735000" />
-      <workItem from="1760531747062" duration="4393000" />
+      <workItem from="1760531747062" duration="7291000" />
+      <workItem from="1760688948899" duration="18819000" />
     </task>
     <servers />
   </component>
