@@ -4,4 +4,4 @@
 [submodule "packages/nomad-compass"]
 	path = packages/nomad-compass
 	url = https://github.com/siamakn/llm25-nomad-compass.git
-	branch = main
+	branch = feature/chatbot
