@@ -10,3 +10,9 @@
 [submodule "packages/fairmat-onboarding"]
 	path = packages/fairmat-onboarding
 	url = https://github.com/FAIRmat-NFDI/fairmat_onboarding.git
+[submodule "packages/fairmat-members"]
+	path = packages/fairmat-members
+	url = https://github.com/FAIRmat-NFDI/fairmat-members.git
+[submodule "packages/fairmat-project-outputs"]
+	path = packages/fairmat-project-outputs
+	url = https://github.com/ahm531/fairmat-project-outputs.git
