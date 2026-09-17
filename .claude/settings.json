@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvx ruff@0.15.16 format .)",
+      "Bash(uvx ruff@0.15.16 check .)",
+      "Bash(uv run *)",
+      "Bash(python3 -c \"import requests; print\\('requests', requests.__version__\\)\")",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 -m py_compile download_other_users_nomad_archives.py nomad_admin/*.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m py_compile scripts/download_other_users_archives.py src/nomad_oasis_admin/*.py)",
+      "Bash(PYTHONPATH=src python3 -c ' *)",
+      "WebFetch(domain:fairmat-nfdi.github.io)",
+      "WebFetch(domain:fairmat-oasis.physik.hu-berlin.de)",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"https://fairmat-oasis.physik.hu-berlin.de/nomad-oasis/api/v1/openapi.json\" -o nomad_openapi.json)",
+      "Bash(python3 -)",
+      "Bash(python3 -m py_compile scripts/grant_reviewer_group_to_onboarding_uploads.py src/nomad_oasis_admin/*.py)",
+      "Bash(rm -rf data/20260608_1951_reviewer_grant)",
+      "Bash(touch MEMORY.md)",
+      "Bash(printf -- \"- [Reviewer-group grant feature]\\(reviewer-group-grant-feature.md\\) — paused, waiting on group_id to grant onboarding uploads reviewer access\\\\n\")"
+    ]
+  }
+}

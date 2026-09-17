@@ -1,3 +1,21 @@
 [submodule "packages/nomad-FAIR"]
 	path = packages/nomad-FAIR
 	url = https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR.git
+[submodule "packages/nomad-training-resources"]
+	path = packages/nomad-training-resources
+	url = https://github.com/FAIRmat-NFDI/nomad-training-resources.git
+[submodule "packages/fairmat-events-form"]
+	path = packages/fairmat-events-form
+	url = https://github.com/FAIRmat-NFDI/fairmat-events-form.git
+[submodule "packages/fairmat-onboarding"]
+	path = packages/fairmat-onboarding
+	url = https://github.com/FAIRmat-NFDI/fairmat_onboarding.git
+[submodule "packages/fairmat-members"]
+	path = packages/fairmat-members
+	url = https://github.com/FAIRmat-NFDI/fairmat-members.git
+[submodule "packages/fairmat-project-outputs"]
+	path = packages/fairmat-project-outputs
+	url = https://github.com/ahm531/fairmat-project-outputs.git
+[submodule "packages/nomad-oasis-customizer-toolkit"]
+	path = packages/nomad-oasis-customizer-toolkit
+	url = https://github.com/siamakn/nomad-oasis-customizer-toolkit.git
