@@ -16,3 +16,6 @@
 [submodule "packages/fairmat-project-outputs"]
 	path = packages/fairmat-project-outputs
 	url = https://github.com/ahm531/fairmat-project-outputs.git
+[submodule "packages/nomad-oasis-customizer-toolkit"]
+	path = packages/nomad-oasis-customizer-toolkit
+	url = https://github.com/siamakn/nomad-oasis-customizer-toolkit.git

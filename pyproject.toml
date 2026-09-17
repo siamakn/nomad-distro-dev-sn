@@ -11,6 +11,7 @@ dependencies = [
     "fairmat-onboarding",
     "fairmat-project-outputs",
     "nomad-lab[infrastructure]>=1.3.10",
+    "nomad-oasis-customizer-toolkit",
     "nomad-training-resources",
 ]
 
@@ -24,6 +25,7 @@ fairmat-events-form = { workspace = true }
 fairmat-onboarding = { workspace = true }
 fairmat-members = { workspace = true }
 fairmat-project-outputs = { workspace = true }
+nomad-oasis-customizer-toolkit = { workspace = true }
 
 [tool.uv]
 extra-index-url = [
