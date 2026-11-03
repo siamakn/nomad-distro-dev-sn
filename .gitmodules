@@ -19,3 +19,10 @@
 [submodule "packages/nomad-oasis-customizer-toolkit"]
 	path = packages/nomad-oasis-customizer-toolkit
 	url = https://github.com/siamakn/nomad-oasis-customizer-toolkit.git
+[submodule "packages/fairmat-network-projects"]
+	path = packages/fairmat-network-projects
+	url = https://github.com/FAIRmat-NFDI/fairmat-network-projects.git
+[submodule "packages/nomad-bayesian-optimization"]
+	path = packages/nomad-bayesian-optimization
+	url = https://github.com/FAIRmat-NFDI/nomad-bayesian-optimization.git
+	branch = bopt-demo
