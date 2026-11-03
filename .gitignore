@@ -170,8 +170,5 @@ fairmat_team.json
 whitelist.json
 **/whitelist.json
 
-# Claude Code: shared settings are tracked, local overrides are not
-.claude/settings.local.json
-
 # Runtime copy of the new GUI (nomad-gui) static files, regenerated on start
 run/
