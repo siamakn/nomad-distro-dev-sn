@@ -8,6 +8,7 @@ license = { file = "LICENSE" }
 dependencies = [
     "fairmat-events-form",
     "fairmat-members",
+    "fairmat-network-projects",
     "fairmat-onboarding",
     "fairmat-project-outputs",
     "nomad-gui==2.0.0b2",
@@ -17,7 +18,10 @@ dependencies = [
 ]
 
 [tool.uv.workspace]
-members = ["packages/*"]
+members = ["packages/*", "packages/fairmat-network-projects/fairmat-network-projects"]
+# fairmat-network-projects ships its pyproject.toml one folder deeper (the template's
+# move_template_files.sh step was never run upstream), so only the nested folder is a member.
+exclude = ["packages/fairmat-network-projects"]
 
 [tool.uv.sources]
 nomad-lab = { workspace = true }
@@ -25,6 +29,7 @@ nomad-training-resources = { workspace = true }
 fairmat-events-form = { workspace = true }
 fairmat-onboarding = { workspace = true }
 fairmat-members = { workspace = true }
+fairmat-network-projects = { workspace = true }
 fairmat-project-outputs = { workspace = true }
 nomad-oasis-customizer-toolkit = { workspace = true }
 
